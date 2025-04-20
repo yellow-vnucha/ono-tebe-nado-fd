@@ -37,18 +37,26 @@ body {
   height: 105px;
 }
 
+.address {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
+
 .header__address {
+  max-width: 240px;
   justify-self: end;
   margin-right: 38px;
   line-height: 24px;
 }
 
-.adress__number {
+.address__number {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
 
-.adress__mail {
+.address__mail {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
@@ -267,14 +275,14 @@ body {
   margin-top: 180px;
   padding-right: 50px;
   padding-bottom: 72px;
-  padding-left: 50px;
+padding-left: 50px;
   justify-content: space-between;
   font-size: 18px;
   line-height: 25px;
 }
 
 .footer__address {
-  justify-self: end;
+  justify-self: start;
   margin-right: 38px;
   line-height: 24px;
 }
