@@ -79,8 +79,9 @@
 .cover__title {
   font-weight: bold;
   font-size: 100px;
-  letter-spacing: 30px;
   text-transform: uppercase;
+  letter-spacing: 30px;
+  
 }
 
 .aligned-text {
